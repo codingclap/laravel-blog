@@ -1,0 +1,87 @@
+@extends('layouts.app')
+
+@section('content')
+	<!--====== Photo Stories Section Start ======-->
+	<section class="photo-stories-section" id="photoStoriesLoaded">
+		<div class="container container-1360">
+			<div class="photo-stories-heading">
+				<h1 class="title">Photo Stories</h1>
+				<ul class="photo-stories-nav">
+					<li data-filter="*" class="active">All Images</li>
+					<li data-filter=".nature">Nature</li>
+					<li data-filter=".design">Design</li>
+					<li data-filter=".travel">Travel</li>
+					<li data-filter=".illustration">Illustration</li>
+				</ul>
+			</div>
+			<div class="photo-stories row justify-content-center">
+				<div class="col-lg-4 col-sm-6 photo-item design illustration">
+					<div class="photo-wrap text-center">
+						<div class="photo">
+							<img src="{{ asset('images/blog-1.jpg') }} " alt="Image">
+							<a href="{{ asset('images/blog-1.jpg') }}" class="photo-view">
+								<i class="far fa-eye"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 photo-item nature travel">
+					<div class="photo-wrap text-center">
+						<div class="photo">
+							<img src="{{ asset('images/blog-1.jpg') }} " alt="Image">
+							<a href="{{ asset('images/blog-1.jpg') }}" class="photo-view">
+								<i class="far fa-eye"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 photo-item travel design">
+					<div class="photo-wrap text-center">
+						<div class="photo">
+							<img src="{{ asset('images/blog-3.jpg') }} " alt="Image">
+							<a href="{{ asset('images/blog-3.jpg') }}" class="photo-view">
+								<i class="far fa-eye"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 photo-item illustration">
+					<div class="photo-wrap">
+						<div class="photo">
+							<img src="{{ asset('images/blog-2.jpg') }} " alt="Image">
+							<a href="{{ asset('images/blog-2.jpg') }}" class="photo-view">
+								<i class="far fa-eye"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 photo-item illustration nature">
+					<div class="photo-wrap text-center">
+						<div class="photo">
+							<img src="{{ asset('images/blog-1.jpg') }} " alt="Image">
+							<a href="{{ asset('images/blog-1.jpg') }}" class="photo-view">
+								<i class="far fa-eye"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 photo-item travel design">
+					<div class="photo-wrap text-center">
+						<div class="photo">
+							<img src="{{ asset('images/blog-3.jpg') }} " alt="Image">
+							<a href="{{ asset('images/blog-3.jpg') }}" class="photo-view">
+								<i class="far fa-eye"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center">
+				<a href="#" class="photo-stories-btn">Load More</a>
+			</div>
+		</div>
+	</section>
+	<!--====== Photo Stories Section End ======-->
+
+
+@endsection
