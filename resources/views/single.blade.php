@@ -78,7 +78,7 @@
 						<div class="col-lg-6 col-md-6 col-sm-10">
 							<div class="related-post-box">
 								<div class="thumb">
-									<img src="{{ asset('images/blog-2.jpg') }}" alt="image">
+									<img src="{{ asset('images/blog-2.jpg') }}" alt="images">
 								</div>
 								<h5 class="title">
 									<a href="#">
