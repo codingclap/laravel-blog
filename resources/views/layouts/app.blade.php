@@ -9,7 +9,7 @@
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<!--====== Title ======-->
-	<title> Genial Blog Html Template || Home Two </title>
+	<title> Laravel Blog System </title>
 	<!--====== Favicon Icon ======-->
 	<link rel="shortcut icon" href="{{ asset('/img/favicon.ico') }}" type="img/png" />
 	<!--====== Animate Css ======-->
