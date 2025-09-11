@@ -9,7 +9,7 @@
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<!--====== Title ======-->
-	<title> Laravel Blog System </title> 
+	<title> Laravel Blog - System </title> 
 	<!--====== Animate Css ======-->
 	<link rel="stylesheet" href="{{ asset('css/animate.min.css') }}" />
 	<!--====== Bootstrap css ======-->
@@ -82,7 +82,7 @@
 								</li> -->
                                 <li><a href="{{ route('home') }}">Home</a></li> 
 								<li><a href="{{ route('blog') }}">Blog</a></li> 
-								 <li><a href="{{ route('single') }}">Single</a></li> 
+								 <li><a href="{{ route('single') }}">Detail Page</a></li> 
 							</ul>
 
 							<div class="social-icons">
