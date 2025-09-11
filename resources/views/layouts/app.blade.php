@@ -9,9 +9,7 @@
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<!--====== Title ======-->
-	<title> Laravel Blog System </title>
-	<!--====== Favicon Icon ======-->
-	<link rel="shortcut icon" href="{{ asset('/img/favicon.ico') }}" type="img/png" />
+	<title> Laravel Blog System </title> 
 	<!--====== Animate Css ======-->
 	<link rel="stylesheet" href="{{ asset('css/animate.min.css') }}" />
 	<!--====== Bootstrap css ======-->
